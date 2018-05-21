@@ -9,27 +9,27 @@ export class HomeComponent implements OnInit {
   lists = [
     {
       title: "电脑端",
-      router: "/pc"
+      router: "/app/index.php/pc"
     },
     {
       title: "手机端",
-      router: "/mobile"
+      router: "/app/index.php/mobile"
     },
     {
       title: "微信端",
-      router: "/wechat"
+      router: "/app/index.php/wechat"
     },
     {
       title: "小程序",
-      router: "/wxapp"
+      router: "/app/index.php/wxapp"
     },
     {
       title: "苹果端",
-      router: "/iphone"
+      router: "/app/index.php/iphone"
     },
     {
       title: "安卓端",
-      router: "/android"
+      router: "/app/index.php/android"
     }
   ];
   constructor() {}
